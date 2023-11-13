@@ -63,6 +63,12 @@ img {
   display: flex;
   align-items: center;
 }
+.header-wrap .menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  stroke: var(--Dark);
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -419,7 +425,6 @@ Main section*/
   content: "";
   width: 100%;
   left: 0;
-  top: 67px;
 
   bottom: -1px;
   height: 4px;
@@ -754,7 +759,7 @@ input {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: #2e2f4266;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
@@ -869,4 +874,83 @@ input {
   border: none;
   border-radius: 50%;
   outline: none;
+}
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  z-index: 999;
+  transform: translateX(100%);
+}
+.menu-container.is-open {
+  transform: translateX(0);
+  background-color: white;
+}
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+}
+
+/* Mobile*/
+
+.mobile-menu-studio {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-top: 24px;
+  padding-left: 8px;
+  margin-bottom: 150px;
+}
+.mobile-menu-studio .menu {
+  display: block;
+  text-decoration: none;
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.mobile-menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 428px;
+}
+.menu-address-li:first-child {
+  color: var(--Primary-Brand);
+  font-size: 36px;
+  font-weight: 700;
+  min-width: 353px;
+  font-style: normal;
+  padding-bottom: 40px;
+}
+.menu-social-list {
+  gap: 56px;
+  justify-content: start;
+}
+.menu-address-list {
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 353px;
+  margin-bottom: 48px;
+  list-style: none;
+}
+.address-email {
+  color: var(--Text);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.blue {
+  color: var(--Pressed-state);
 }
