@@ -1036,7 +1036,150 @@ input {
   transform: translateX(0);
   background-color: white;
 }
+
+/*============================ TABLET=============================== */
+
+@media all and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* Header */
+  .header-wrap {
+    height: 72px;
+  }
+  .menu-toggle {
+    display: none;
+    align-items: center;
+  }
+  .navigation {
+    align-items: center;
+    display: flex;
+  }
+  .header-wrap {
+    display: flex;
+    gap: 40px;
+  }
+  .header-wrap .menu {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 24px 0;
+  }
+  .list-feature {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+  }
+  .logo {
+    margin-left: 16px;
+    text-decoration: none;
+  }
+  .address {
+    display: inline;
+    margin: auto;
+    font-size: 12px;
+  }
+  .list-header {
+    display: block;
+    padding-top: 16px;
+    padding-right: 16px;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .list-feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .icons-secondary {
+    display: none;
+  }
+  .section-third {
+    display: none;
+  }
+  .list-secondary {
+    align-items: flex-start;
+    width: 356px;
+  }
+  .section-secondary {
+    padding-bottom: 0px;
+  }
+  .header-second {
+    padding: 0 0 0 24px;
+  }
+  .body-secondary {
+    padding: 0 0 0 24px;
+    font-weight: 500;
+  }
+  .fourth-section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+  }
+  .section-fifth {
+    padding: 0;
+  }
+  .header-third {
+    padding-top: 96px;
+  }
+  .customers-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: revert;
+  }
+  .footer-logo {
+    text-align: left;
+  }
+  .social-media-title {
+    text-align: left;
+  }
+  .footer-box {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-right: 24px;
+  }
+  .footer-social-div {
+    margin-right: 164px;
+    margin-left: 0px;
+  }
+  .subscribe-container {
+    margin-left: 106px;
+    display: block;
+    margin-right: 207px;
+  }
+  .footer-form {
+    flex-wrap: nowrap;
+  }
+  .footer-section {
+    height: 466px;
+  }
+  .footer-input-email{
+    color: #ffffff;
+}
 /* Modal */
+
+@media screen and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .background-image {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/people-office-backgroundS.jpg");
+  }
+}
+
+/* Modal form */
+
+.modal-container {
+  min-width: 408px;
+}
 
 @media screen and (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
