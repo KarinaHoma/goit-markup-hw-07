@@ -1218,7 +1218,6 @@ input {
 
   .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
   }
   .header {
@@ -1647,13 +1646,14 @@ Main section*/
   .footer-container {
     display: flex;
     align-items: baseline;
+    max-width: none;
   }
   .footer-box {
     margin-right: 120px;
   }
   .footer-section {
     background-color: var(--Dark);
-    padding: 100px 0;
+    height: 312px;
   }
   .footer-body {
     font-size: 16px;
@@ -2030,9 +2030,11 @@ Main section*/
   }
   .list-feature-secondary {
     display: flex;
+    gap: 24px;
   }
   .customers-columns {
     display: flex;
+    gap: 24px;
   }
 
   .social-media-title,
