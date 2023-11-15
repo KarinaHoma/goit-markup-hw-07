@@ -1171,6 +1171,9 @@ input {
     width: 264px;
     height: 428px;
   }
+  .footer-input-email {
+    width: 264px;
+  }
   .list-feature-secondary {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
