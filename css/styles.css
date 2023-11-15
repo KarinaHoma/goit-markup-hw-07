@@ -329,6 +329,9 @@ Second main section*/
   gap: 24px;
   list-style: none;
   margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .list-secondary {
   display: flex;
