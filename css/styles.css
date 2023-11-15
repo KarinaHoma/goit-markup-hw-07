@@ -263,7 +263,8 @@ First main section*/
   min-width: 190px;
   list-style: none;
   margin-bottom: 72px;
-  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .background-image {
