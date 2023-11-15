@@ -1355,6 +1355,7 @@ Second main section*/
     display: flex;
     gap: 24px;
     list-style: none;
+    flex-direction: row;
   }
   .list-secondary {
     width: calc((100% - 72px) / 4);
