@@ -264,8 +264,6 @@ First main section*/
   list-style: none;
   margin-bottom: 72px;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .background-image {
@@ -2062,7 +2060,7 @@ Main section*/
   }
 }
 
-/*============================ under 320px=============================== */
+/*============================ under 428px=============================== */
 
 @media screen and (max-width: 428px) {
   .container {
