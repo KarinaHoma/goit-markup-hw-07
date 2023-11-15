@@ -1409,7 +1409,6 @@ Third main section*/
 Fourth main section*/
   .fourth-section {
     background-color: var(--Light);
-    padding: 120px 0;
     margin: auto 0;
     text-align: center;
   }
@@ -2020,5 +2019,23 @@ Main section*/
     top: 16px;
     right: 16px;
     color: white;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .list-feature-secondary {
+    display: flex;
+  }
+  .customers-columns {
+    display: flex;
+  }
+
+  .social-media-title,
+  .social-media-title,
+  .footer-logo {
+    text-align: left;
+  }
+  .footer-form-label {
+    width: auto;
   }
 }
