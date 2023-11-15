@@ -107,7 +107,7 @@
   /* Mobile- Header*/
 
   .container {
-    max-width: 767px;
+    width: 428px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -316,6 +316,7 @@ First main section - button*/
 }
 .team-card {
   margin-bottom: 72px;
+  width: 264px;
 }
 
 /*Index
@@ -1044,7 +1045,8 @@ input {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
-    min-width: 768px;
+    width: 768px;
+    margin: 0 auto;
   }
 
   /* Tablet styles */
@@ -1215,7 +1217,7 @@ input {
   /* Header*/
 
   .container {
-    min-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
   }
